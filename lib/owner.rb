@@ -14,7 +14,7 @@ attr_reader :species
       @@all
       end
 
-      def self.reset
+      def reset_all
         @@all.clear
       end
 
